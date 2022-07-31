@@ -43,7 +43,8 @@
     "stylelint-config-sass-guidelines": "^9.0.0"
   },
   "scripts": {
-    "dev": "NODE_ENV=development next",
+    "dev_comment": "https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported",
+    "dev": "NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider next",
     "start": "NODE_ENV=production next start",
     "build": "next build",
     "eslint": "eslint ./src",
