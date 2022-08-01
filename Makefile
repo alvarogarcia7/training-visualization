@@ -4,17 +4,17 @@ up:
 down:
 	docker-compose down
 
-build:
-	docker-compose exec ${DOCKER_COMPOSE_OPTIONS} node yarn compile
+#build:
+#	docker-compose exec ${DOCKER_COMPOSE_OPTIONS} node yarn compile
 
 build-watch:
 	docker-compose exec node yarn dev
 
-test:
-	docker-compose exec ${DOCKER_COMPOSE_OPTIONS} node yarn test
+#test:
+#	docker-compose exec ${DOCKER_COMPOSE_OPTIONS} node yarn test
 
-test-watch:
-	docker-compose exec node yarn test:watch
+#test-watch:
+#	docker-compose exec node yarn test:watch
 
 bash:
 	docker-compose exec node bash
