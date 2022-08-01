@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   node:
+    # Tested using node 16.15
     image: "node"
     # https://stackoverflow.com/questions/38546755/docker-compose-keep-container-running
     tty: true
